@@ -1,0 +1,620 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    display: grid;
+    grid-template-columns: 12.2254vw 41.1420vw;
+    justify-content: space-between;
+    padding: 0 70px;
+    align-items: center;
+    height: 20.0308vh;
+    background-color: #F0F0EF;
+}
+nav #List{
+    display: none;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: var(--font-color, #333);
+font-size: 1rem;
+font-weight: 600;
+}
+nav h1{
+    color: #054C73;
+font-size: 2.125rem;
+font-weight: 700;
+}
+.hero img{ 
+    width: 100%;
+    height: calc(100vh - 20.03081664098613vh);
+    object-fit:cover;
+}
+.hero{
+    position: relative;
+    height: 79.9692vh;
+}
+.hero .herosquare{
+    position: absolute;
+    background-color:#DFE9F4;
+    width: 47vw;
+    height: 68.7211vh;
+    left: 52.14vw;
+    top: 0;
+
+}
+.herotext{
+    margin: 40px 70px 40px 50px ;
+}
+.hero .herosquare span{
+color: var(--font-color, #333);
+font-size: 1rem;
+font-weight: 600;
+letter-spacing: 3px;
+}
+.hero .herosquare .discover{
+    color: var(--primary-color, #054C73);
+font-size: 3.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 65px; /* 125% */
+margin: 1.375rem 0;
+width: 30.5vw;
+}
+.hero .herosquare .lorem{
+    color: var(--font-color, #333);
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 39px; /* 216.667% */
+}
+.herorest{
+    margin-left: 40px;
+}
+.hero .herorest button{
+
+display: inline-flex;
+height: 4.25rem;
+padding: 1.5625rem 4.5rem;
+gap: 0.625rem;
+flex-shrink: 0;
+border-radius: 50px;
+background: var(--primary-color, #054C73);
+color: white;
+}
+.delivery .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 45px 70px;
+    background-color: #F2F5FF;;
+
+}
+.delivery .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.delivery.card img{
+    width:5.4730625rem;
+height: 3.4375rem;
+}
+.Inspiration {
+    text-align: center;
+    padding: 4.0625rem 0;
+}
+.Inspiration .container{
+    display: grid;
+    grid-template-columns: repeat(3,26.5739vw);
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.Inspiration .container .card img{
+    width: 100%;
+    height: 28.75rem;
+    object-fit: cover;
+}
+.Inspiration .container #left{
+    border-top-left-radius:100px ;
+}
+.Inspiration .container #right{
+    border-bottom-right-radius:100px ;
+}
+#cardright{
+    position: relative;
+}
+
+#center{
+    position: relative;
+    bottom: 30px;
+}
+#lamp{
+    position: absolute;
+    max-width: max-content;
+    max-height: 18.75rem;
+    transform: translate(-50%);
+    right: 25%;
+}
+.Beautify {
+
+    padding: 25px 70px;
+}
+.Beautify .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+}
+.Beautify .container .text h1{
+    color: var(--font-color, #333);
+font-size: 2rem;
+font-weight: 700;
+padding-bottom: 50px;
+}
+.Beautify .container .text p{
+    color: var(--font-color-1, #666);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 195%; /* 195% */
+    padding-bottom: 30px;
+}
+.Beautify .container .text{
+    width: 36.2371vw;
+}
+.Beautify .container .text button{
+    height: 4.25rem;
+    padding: 1.5625rem 4.5rem;
+    border-radius: 50px;
+background: var(--primary-color, #054C73);
+color:white;
+}
+.Beautify .container img{
+    width: 100%;
+    object-fit: cover;
+}
+.Browse{
+    text-align: center;
+    padding: 25px 70px;
+}
+.Browse h1{
+    line-height: 200%;
+}
+.Browse span{
+    color: var(--font-color-1, #666);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.Browse .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    margin: 70px 0;
+}
+.Browse .container .img img{
+    width: 23.875rem;
+    height: 30rem;
+    object-fit: cover;
+}
+.Browse .container .img h2{
+    margin-top:  30px; ;
+    text-align: center;
+    font-size: 1rem;
+}
+.How{
+    text-align: center;
+    padding: 65px 70px;
+}
+.How .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 0.5fr;
+    justify-content: space-around;
+    margin: 70px 0;
+}
+.How .container .img img{
+    width:23.75rem;
+    height: 25rem;
+    object-fit: cover;
+}
+.How h1{
+    line-height: 200%;
+}
+.How span{
+    color: var(--font-color-1, #666);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.How .container .img h2{
+    margin-top:  30px; ;
+
+    font-size: 1rem;
+}
+.How .container .img{
+    position: relative;
+}
+.How .container .img .number{
+    position: absolute;
+    top: 100%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    background-color: black;
+    border-radius: 100%;
+    border-color: white;
+    padding: 30px;
+    border-width: 15px;
+    border-style: solid;
+}
+.How .container .img .number span{
+    color: white;
+    font-weight: 700;
+}
+.How .container .Howtext{
+    margin-top:65px;
+    text-align: center;
+    justify-content: center;
+    padding: 0 50px;
+}
+.How .container .Howtext h2{
+    color: var(--font-color, #333);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.How .container .Howtext p{
+    color: var(--font-color-1, #666);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.556%; /* 155.556% */
+}
+.join{
+    background: #F2F5FF;
+    text-align: center;
+    padding: 90px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.join  p{
+    color: var(--font-color-1, #666);
+    width: 38.7994vw;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 195%; /* 195% */
+margin-bottom: 50px;
+}
+.join input{
+    border-radius: 3px;
+border: 1px solid var(--primary-color, #054C73);
+border-right: 0;
+background: #FFF;
+width: 38.7994vw;
+height: 11.8644vh;
+flex-shrink: 0;
+padding: 0 25px;
+margin: 0;
+}
+.join .email{
+    display: flex;
+    justify-content: center;
+}
+.join button{
+    border-radius: 3px;
+border: 1px solid #011C42;
+border-left: 0;
+background: var(--primary-color, #054C73);
+width: 10.9809vw;
+height: 11.8644vh;
+flex-shrink: 0;
+margin: 0;
+color: white;
+}
+footer{
+    background: #03344F;
+    padding: 65px 70px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+footer .footertext{
+    width: 30.0146vw;
+}
+.footertext h1{
+    color: #FFF;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 25px;
+}
+.footertext p{
+    color: #FFF;
+
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 218.75%; /* 218.75% */
+}
+footer .instagram h1{
+    text-align: right;
+    color: #FFF;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+footer .instagram .imgcontainer img{
+    width: 8.125rem;
+    height: 8.125rem;
+    object-fit: cover;
+}
+footer .instagram .imgcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+@media screen and (min-width:1367px) {
+    html{
+        font-size: 20px;
+    }
+    .hero .herorest button{
+        margin-top: 70px;
+    }
+}
+
+@media screen and  (max-width:1366px) {
+    html{
+        font-size: 16px;
+    }
+}
+@media  screen and (max-width:1200px) 
+{
+html{
+    font-size: 12px;
+}    
+.herotext{
+    margin: 30px 60px 30px 30px ;
+}
+.Howtext{
+    padding: 0 35px;
+}
+} 
+@media screen and (max-width:900px) {
+html{
+    font-size: 16px;
+}
+nav #List{
+    display: inline;
+    justify-self: right;
+}
+nav ul{
+    display: none;
+    
+}
+nav h1{
+    font-size: 1.375rem;
+}
+nav{
+    padding: 0 20px;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero .herosquare{
+    background:none;
+    margin: auto;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.hero .herotext{
+    text-align: center;
+    margin: 20px 0;
+}
+.herotext span{
+    font-size: 1rem;
+}
+.herotext .discover{
+    font-size: 1.875rem;
+    width: 100% ;
+}
+.herotext .lorem{
+    font-size: 1rem;
+}
+.hero .herorest{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+} 
+.delivery{
+    padding: 0;
+}
+.delivery .container{
+    grid-template-rows: 20vh 20vh 20vh;
+    grid-template-columns: 100vw;
+    padding: 0;
+}
+.Inspiration .container{
+
+    gap: 25px;
+    grid-template-columns: 89vw;
+    grid-template-rows: repeat(3,53.404vh);
+}
+#center{
+    bottom: 0;
+}
+.Inspiration .container .card img{
+    height: 100%;
+}
+.Beautify{
+    padding: 0;
+}
+.Beautify .container{
+    grid-template-columns: 100vw;
+    grid-template-rows: 50vh 50vh;
+    gap: 40px;
+}
+.Beautify .container .text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5.5vw;
+}
+.Beautify .container .text h1{
+    font-size: 1.625rem;
+}
+.Beautify .container .text p{
+    font-size: 1rem;
+}
+.Beautify .container .text button{
+    height: 68px;
+    padding: 25px 72px;
+    text-align: center;
+    align-self: center;
+}
+.Beautify .container .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.Browse .container{
+    grid-template-columns: 89vw;
+    grid-template-rows: repeat(3,57.27636vh);
+    align-content: space-around;
+}
+.Browse{
+    padding: 0;
+}
+.Browse h1{
+    font-size: 1.625rem;
+    margin: 10px;
+}
+.Browse p{
+    font-size: 1rem;
+}
+.Browse .container .img h2{
+    font-size: 1.625rem;
+    margin: 15px 0 30px 0;
+}
+.Browse .container .img img{
+    width: 100%;
+    height: 84.25%;
+    object-fit: cover;
+}
+.How{
+    padding: 0;
+}
+.How .container{
+    grid-template-columns: 89vw;
+    grid-template-rows: 50vh 18vh 50vh 18vh 50vh 18vh;
+    gap: 25px;
+}
+.How .container .Howtext {
+    text-align: left;
+    padding: 0;
+    margin-top: 20px;
+}
+.How .container .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.How .container .img .number{
+    padding: 17.5px;
+}
+.How h1{
+    font-size: 1.625rem;
+    margin: 10px ;
+}
+.How p{
+    font-size: 1rem;
+}
+.Howtext h2{
+    font-size: 1.625rem;
+    margin: 10px 0;
+}
+.Howtext p{
+    font-size: 1rem;
+}
+#firstimg{
+    order:1;
+}
+#midimg{
+    order: 3;
+}
+#finalimg{
+    order: 5;
+}
+#firsttext{
+    order: 2;
+}
+#midtext{
+order: 4;
+}
+#finaltext{
+    order: 6;
+}
+.join h1{
+    font-size: 1.625rem;
+}
+.join p{
+    width: 87.4316vw;
+    margin: 22px 0;
+    font-size: 0.875rem;
+}
+.join .email{
+    flex-wrap: wrap;
+    gap: 18px;
+}
+.join .email input{
+    width: 88.88vw;
+    border: 1px solid var(--primary-color, #054C73);
+}
+.join .email button{
+    width: 9.3125rem;
+    border: 1px solid #011C42;
+    font-size: 1rem;
+    height: 3.1875rem;
+    padding: 17.5px 42.5px;
+}
+footer{
+    grid-template-columns: 89vw;
+    grid-template-rows: repeat(2,60vh);
+    padding: 55px 0;
+}
+footer .footertext{
+    width: 75vw;
+}
+.footertext h1{
+    font-size: 1.625rem;
+}
+.footertext #one{
+    display: none;
+}
+.footertext #two{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height:  218.75%;
+}
+footer .instagram h1{
+    padding-bottom: 20px;
+    text-align: left;
+}
+}
+    
+
