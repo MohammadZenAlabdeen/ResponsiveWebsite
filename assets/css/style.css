@@ -62,7 +62,6 @@ letter-spacing: 3px;
 .hero .herosquare .discover{
     color: var(--primary-color, #054C73);
 font-size: 3.25rem;
-font-style: normal;
 font-weight: 700;
 line-height: 65px; /* 125% */
 margin: 1.375rem 0;
@@ -376,18 +375,6 @@ footer .instagram .imgcontainer{
     html{
         font-size: 16px;
     }
-}
-@media  screen and (max-width:1200px) 
-{
-html{
-    font-size: 12px;
-}    
-.herotext{
-    margin: 30px 60px 30px 30px ;
-}
-.Howtext{
-    padding: 0 35px;
-}
 } 
 @media screen and (max-width:900px) {
 html{
@@ -428,14 +415,14 @@ nav{
 .herotext span{
     font-size: 1rem;
 }
-.herotext .discover{
+.hero .herosquare .herotext .discover{
     font-size: 1.875rem;
     width: 100% ;
 }
-.herotext .lorem{
+.herotext .herosquare .herotext .lorem{
     font-size: 1rem;
 }
-.hero .herorest{
+.hero .herosquare .herorest{
     display: flex;
     justify-content: center;
     margin: 0;
