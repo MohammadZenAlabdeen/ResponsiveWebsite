@@ -352,8 +352,8 @@ font-weight: 700;
 line-height: normal;
 }
 footer .instagram .imgcontainer img{
-    width: 8.125rem;
-    height: 8.125rem;
+    width: 12.8vw;
+    height: 12.8vw;
     object-fit: cover;
 }
 footer .instagram .imgcontainer{
@@ -601,6 +601,11 @@ footer .footertext{
 footer .instagram h1{
     padding-bottom: 20px;
     text-align: left;
+}
+footer .instagram .imgcontainer img{
+    width: 8.125rem;
+    height: 8.125rem;
+    object-fit: cover;
 }
 }
     
