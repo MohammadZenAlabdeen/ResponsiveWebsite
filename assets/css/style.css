@@ -44,9 +44,9 @@ font-weight: 700;
 .hero .herosquare{
     position: absolute;
     background-color:#DFE9F4;
-    width: 47vw;
-    height: 68.7211vh;
-    left: 52.14vw;
+    width: 47%;
+    max-height: 85.7692%;
+    left: 52.14%;
     top: 0;
 
 }
@@ -87,6 +87,7 @@ flex-shrink: 0;
 border-radius: 50px;
 background: var(--primary-color, #054C73);
 color: white;
+margin-bottom: 40px;
 }
 .delivery .container{
     display: grid;
@@ -193,12 +194,12 @@ color:white;
 }
 .Browse .container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: space-around;
+    grid-template-columns: repeat(3,27.9648vw);
+    justify-content: space-between;
     margin: 70px 0;
 }
 .Browse .container .img img{
-    width: 23.875rem;
+    width: 100%;
     height: 30rem;
     object-fit: cover;
 }
@@ -213,13 +214,13 @@ color:white;
 }
 .How .container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,27.9648vw);
     grid-template-rows: 1fr 0.5fr;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 70px 0;
 }
 .How .container .img img{
-    width:23.75rem;
+    width:100%;
     height: 25rem;
     object-fit: cover;
 }
@@ -351,17 +352,18 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-footer .instagram .imgcontainer img{
-    width: 12.8vw;
-    height: 12.8vw;
-    object-fit: cover;
-}
 footer .instagram .imgcontainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 25px;
 }
+footer .instagram .imgcontainer img{
+    max-width: 10.9375rem;
+    height: 10.9375rem;
+    object-fit: cover;
+}
+
 @media screen and (min-width:1367px) {
     html{
         font-size: 20px;
@@ -492,6 +494,7 @@ nav{
     grid-template-columns: 89vw;
     grid-template-rows: repeat(3,57.27636vh);
     align-content: space-around;
+    justify-content: center;
 }
 .Browse{
     padding: 0;
@@ -518,6 +521,7 @@ nav{
 .How .container{
     grid-template-columns: 89vw;
     grid-template-rows: 50vh 18vh 50vh 18vh 50vh 18vh;
+    justify-content: center;
     gap: 25px;
 }
 .How .container .Howtext {
@@ -590,7 +594,7 @@ order: 4;
 }
 footer{
     grid-template-columns: 89vw;
-    grid-template-rows: repeat(2,60vh);
+    grid-template-rows: repeat(2,80vh);
     padding: 55px 0;
 }
 footer .footertext{
