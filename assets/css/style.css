@@ -140,8 +140,8 @@ height: 3.4375rem;
     position: absolute;
     max-width: max-content;
     max-height: 18.75rem;
-    transform: translate(-50%);
-    right: 25%;
+    transform: translatex(-50%);
+    left: 50%;
 }
 .Beautify {
 
@@ -245,7 +245,7 @@ color:white;
     transform: translate(-50%,-50%);
     left: 50%;
     background-color: black;
-    border-radius: 100%;
+    border-radius: 50%;
     border-color: white;
     padding: 30px;
     border-width: 15px;
@@ -603,8 +603,8 @@ footer .instagram h1{
     text-align: left;
 }
 footer .instagram .imgcontainer img{
-    width: 8.125rem;
-    height: 8.125rem;
+    min-width: 8.125rem;
+    min-height: 8.125rem;
     object-fit: cover;
 }
 }
