@@ -594,7 +594,7 @@ order: 4;
 }
 footer{
     grid-template-columns: 89vw;
-    grid-template-rows: repeat(2,80vh);
+    grid-template-rows: 48.59813vh auto;
     padding: 55px 0;
 }
 footer .footertext{
@@ -616,8 +616,8 @@ footer .instagram h1{
     text-align: left;
 }
 footer .instagram .imgcontainer img{
-    min-width: 8.125rem;
-    min-height: 8.125rem;
+    width: 36.11vw;
+    height: 17.35vh;
     object-fit: cover;
 }
 }
