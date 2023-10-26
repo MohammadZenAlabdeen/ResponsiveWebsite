@@ -435,6 +435,15 @@ nav{
     grid-template-columns: 100vw;
     padding: 0;
 }
+#deliveyfirst{
+    order: 1;
+}
+#deliverysecond{
+    order: 2;
+}
+#deliverythird{
+    order: 3;
+}
 .Inspiration .container{
 
     gap: 25px;
